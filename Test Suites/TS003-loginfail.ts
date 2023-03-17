@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS003-loginfail</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>a0f8c697-86e5-41cd-bfab-37b20805966b</testSuiteGuid>
+   <testCaseLink>
+      <guid>cf4dce77-0214-4411-9544-b32cfa28baf8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Testcasesfail02</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f10a4e9e-28d0-4ede-b35b-92c5f5b3c1b9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/failaccount</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>f10a4e9e-28d0-4ede-b35b-92c5f5b3c1b9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>e_username</value>
+         <variableId>60e3e078-755f-4750-aa8a-ea52afb213c6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f10a4e9e-28d0-4ede-b35b-92c5f5b3c1b9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>e_password</value>
+         <variableId>6f4462a3-081c-4e59-aba2-9988a18c0061</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
